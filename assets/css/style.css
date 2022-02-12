@@ -1,13 +1,16 @@
 nav .nav-wrapper {
     position: relative;
     height: 100%;
-    background-color: rgb(207, 156, 132);
+    background-color:salmon
+}
+.CircleBadge-icon{
+    height:50%;
 }
 .row {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    background-color: rgb(236, 219, 212);
+    background-color:rgb(245, 186, 179)
 }
 html {
     line-height: 1.5;
@@ -16,7 +19,20 @@ html {
     color: rgba(0,0,0,0.87);
    font-size: 300%;
 }
-
+.card.horizontal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color:rgb(248, 223, 227)
+}
+.card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(0 0 0 / 42%);
+    margin-right: 24px;
+    -webkit-transition: color .3s ease; 
+    transition: color .3s ease; 
+    text-transform: uppercase; 
+}
 footer a{
     color: #ededed;
     text-decoration: none;
